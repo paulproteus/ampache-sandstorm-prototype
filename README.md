@@ -1,5 +1,8 @@
 # ampache-sandstorm-prototype
+
 Purpose: Create an initial packaging prototype of Ampache on Sandstorm
+
+This is intended to be a collaboration between @paulproteus and @vionemc.
 
 ## General strategy
 
