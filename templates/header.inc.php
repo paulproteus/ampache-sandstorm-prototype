@@ -60,6 +60,7 @@ $_SESSION['login'] = false;
         <?php 
 } ?>
         <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=<?php echo AmpConfig::get('site_charset'); ?>" />
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com; font-src 'self' http://static.local.sandstorm.io:6080 ">
         <title><?php echo AmpConfig::get('site_title'); ?> - <?php echo $location['title']; ?></title>
         <?php require_once AmpConfig::get('prefix') . UI::find_template('stylesheets.inc.php'); ?>
         <link rel="stylesheet" href="<?php echo $web_path . UI::find_template('jquery-editdialog.css'); ?>" type="text/css" media="screen" />
